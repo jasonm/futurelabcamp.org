@@ -44,41 +44,44 @@ blockquote, q {
   quotes: "" "";
 }
 
-dy {
+body {
   padding: 32px;
   font-size: 14px;
   font-family: Hevletica, Arial, Sans-serif;
 }
 
+div#content {
+  margin: 32px auto;
+  width: 760px;
+}  
+
 h1 {
-  font-size: 64px;
+  font-size: 36px;
   font-weight: bold;
-  text-align: center;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
+  padding-bottom: 32px;
 }
 
 h1 img {
   clear: both;
   display: block;
-  margin: auto;
-  padding: 64px 0;
+  padding: 16px 0 32px 0;
+  margin-left: -38px;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 24px;
   font-weight: bold;
-  text-align: center;
-  letter-spacing: -2px;
+  letter-spacing: -1px;
 }
 
 p,
 ul {
-  width: 640px;
+  width: 760px;
 }
 
 p {
   font-size: 24px;
-  margin: 32px auto;
 }
 
 ul {
@@ -105,3 +108,9 @@ body.funnels-show a.beer-picture img {
 }
 
 
+iframe {
+  width: 760px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
