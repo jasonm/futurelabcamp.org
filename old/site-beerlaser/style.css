@@ -1,0 +1,183 @@
+body {
+  background-color: #141414;
+  z-index: -2;
+}
+
+#main-graphic {
+  width: 780px;
+  height: 342px;
+  background: url(images/gradient-round-rect.png) no-repeat;
+  z-index: 10;
+  position: relative;
+}
+
+#bottom {
+  background-color: #212121;
+  border-bottom-style: solid;
+  border-top-style: solid;
+  border-color: #353535;
+  border-width: 1px;
+  position: relative;
+  top: -75px;
+  color: #E4E4E4;
+  display: block;
+  z-index: 1;
+}
+
+#bottom h2 {
+  color: #E4E4E4;
+}
+
+#bottom div.container {
+  padding-top: 75px;
+}
+
+.sponsors {
+  background-color: white;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: block;
+}
+
+#our-sponsors h1 {
+  text-align: center;
+  color: #E4E4E4;
+}
+
+#sponsor-levels div.span-10 h2 {
+  display: inline;
+  background-color: white;
+}
+
+#sponsor-levels div.span-10.sponsors.last {
+  margin: 0;
+}
+
+#sponsor-levels h2 {
+  color: #555;
+  margin: 0;
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+#sponsor-levels div.span-10 {
+  display: block;
+  margin-top: 10px;
+}
+
+.sponsors img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#colophon {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: #E4E4E4;
+  text-align: center;
+}
+
+/* @group Info Text */
+
+#general-info {
+  font-family: "Century Gothic", "Lucida Grande", Lucida, Verdana, sans-serif;
+  padding-top: 20px;
+  color: #000;
+  text-shadow: 0px 1px 1px #fff;
+}
+
+#info-dates h1.loud {
+  font-size: 4.85em;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+#info-dates h1.loud a#mit, a#mit:link, a#mit:visited, a#mit:hover {
+  color: #000;
+  text-shadow: 0px 1px 1px #fff;
+  font-weight: normal;
+  font-style: normal;
+}
+
+#colophon p {
+  margin: 0;
+}
+
+#info-blurb p {
+  margin-bottom: 5px;
+}
+
+#links {
+  margin-top: 10px;
+  font-size: 2em;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#links a, a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+/* @end */
+
+/* @group Twitter */
+
+ul.jtwitter {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+ul.jtwitter li.tweet {
+  background-color: #3b3b3b;
+  margin-bottom: 5px;
+  border: 1px solid #7e7e7e;
+  clear: left;
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  margin: 0.5em;
+  min-height: 48px;
+  padding: 0 0 0 54px;
+  position: relative;
+}
+
+#twitter ul.jtwitter li.tweet a.avatar img.avatar {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+#twitter a, a:link, a:visited {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* @end */
+
+/* @group Flickr */
+
+#flickr ul li {
+  display: inline;
+}
+
+#flickr ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+#flickr ul li a img {
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 5px;
+  border: 1px solid #7e7e7e;
+}
+
+/* @end */
