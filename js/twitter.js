@@ -1,4 +1,4 @@
-var buildString = "from:futurelabcamp+OR+%23futurelabcamp";
+var buildString = "from:futurelabcamp+OR+%23futurelabcamp+OR+to:futurelabcamp";
 
 $(document).ready(function(){
   $('#twitter-ticker').show();
