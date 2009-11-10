@@ -12,9 +12,14 @@
     <link rel="stylesheet" href="css/blueprint/src/forms.css" type="text/css" media="screen, projection" />
     <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print" />
     <link rel="stylesheet" href="css/site.css" type="text/css" media="screen, projection" />
+    <link rel="stylesheet" href="css/twitter.css" type="text/css" media="screen, projection" />
     <!--[if lt IE 8]>
       <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection" />
     <![endif]-->
+
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/twitter.js"></script>
   </head>
   <body class="homepage xshowgrid">
     <div class="container">
@@ -36,8 +41,6 @@
         <div class="span-12 prepend-top last">
           <h3>Want to know when FutureLabCamp is ready to go?</h3>
           <p>Sign up here and we&#39;ll email you when there's more to hear.  (I promise I won&#39;t use your email for anything else!)</p>
-
-          <p class="ss-required-asterisk">* Required</p>
           <div class="ss-form"><form action="http://spreadsheets.google.com/formResponse?key=tTwvmsZSNBjIFhdico8Rx1g&amp;ifq" method="POST" id="ss-form">
 
             <br/>
@@ -76,6 +79,7 @@
 
       <div class="span-6">
         <h3>References</h3>
+        Read up or share references with other attendees at <a href="http://friendfeed.com/search?q=futurelabcamp">FriendFeed</a>.
         <ul class="twitter-results">
         </ul>
       </div>  
@@ -83,8 +87,9 @@
         <h3>Twitter</h3>
         <p>Follow <a href="http://twitter.com/futurelabcamp">@futurelabcamp</a> on Twitter.</p>
 
-        <ul class="twitter-results">
-        </ul>
+        <div id="twitter-ticker">
+          <div id="tweet-container"><img id="loading" src="img/loading.gif" width="16" height="11" alt="Loading.." /></div>
+        </div>
       </div>  
 
       <div class="comments span-24 prepend-top last">
