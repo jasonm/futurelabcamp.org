@@ -67,6 +67,10 @@
         var d = $('<div />').addClass( css.item ).appendTo( bx ), subD = $('<div />').addClass( css.meta ).appendTo( d );
         $('<p />').html( items[i].body ).prependTo( d );
         
+        if( items[i].from ) {
+          $('<span />').html('from ').appendTo(subD);
+          $('<a />').attr('href', "http://friendfeed.com" + items[i].from.id).html( items[i].from.name ).appendTo( subD ); 
+        }
         // if( items[i].via ) { 
         //   $('<span />').html('via ').appendTo(subD);
         //   $('<a />').attr('href', items[i].via.url).html( items[i].via.name ).appendTo( subD ); 
