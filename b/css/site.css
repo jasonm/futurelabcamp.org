@@ -19,6 +19,10 @@ h2 span {
   padding: 0px;
 }
 
+.comments {
+  margin: 3em 0;
+}
+
 .footer {
   margin: 3em 0;
   text-align: center;
@@ -34,3 +38,14 @@ ul.twitter-results li {
 ul.twitter-results li {
   padding-bottom: 1.5em;
 }
+
+.ss-required-asterisk {
+  color: red;
+}
+
+textarea, input {
+  display: block;
+  font-size: 100%;
+  padding: 0.325em;
+}
+
