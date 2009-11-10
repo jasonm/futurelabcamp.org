@@ -49,3 +49,19 @@ textarea, input {
   padding: 0.325em;
 }
 
+
+.references {
+  overflow: hidden;
+}
+
+.ff_item {
+	/* Affects the tweets */
+	padding:5px;
+	margin:0 0px 8px;
+
+	border:1px solid #F0F0F0;
+	background:url(img/transparent.png);
+
+	width:auto;
+	overflow:hidden;
+}

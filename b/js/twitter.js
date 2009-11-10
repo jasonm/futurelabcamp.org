@@ -5,7 +5,7 @@ var tweetUsers = ['tutorialzine','TechCrunch',
 var buildString = "from:jayunit+OR+%23barcamp";
 
 $(document).ready(function(){
-  $('#twitter-ticker').slideDown('slow');
+  $('#twitter-ticker').show();
 
 
   var fileref = document.createElement('script');
@@ -34,7 +34,7 @@ function TweetTick(ob)
     var str = '	<div class="tweet">\
     <div class="avatar"><a href="http://twitter.com/'+this.from_user+'" target="_blank"><img src="'+this.profile_image_url+'" alt="'+this.from_user+'" /></a></div>\
     <div class="user"><a href="http://twitter.com/'+this.from_user+'" target="_blank">'+this.from_user+'</a></div>\
-    <div class="time">'+relativeTime(this.created_at)+'</div>\
+    <br/><div class="time">'+relativeTime(this.created_at)+'</div>\
     <div class="txt">'+formatTwitString(this.text)+'</div>\
     </div>';
 
