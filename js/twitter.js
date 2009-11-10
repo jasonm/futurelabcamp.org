@@ -1,8 +1,4 @@
-var tweetUsers = ['tutorialzine','TechCrunch',
-'smashingmag','mashable'];
-// The twitter accounts that will be included in the ticker
-
-var buildString = "from:jayunit+OR+%23barcamp";
+var buildString = "from:futurelabcamp+OR+%23futurelabcamp";
 
 $(document).ready(function(){
   $('#twitter-ticker').show();
