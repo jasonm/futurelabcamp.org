@@ -1,0 +1,2 @@
+#!/bin/bash
+ssh jayunit.net "cd futurelabcamp.org && git pull"
