@@ -43,7 +43,7 @@ ul.twitter-results li {
   color: red;
 }
 
-textarea, input {
+textarea, input.ss-q-short {
   display: block;
   font-size: 100%;
   padding: 0.325em;
